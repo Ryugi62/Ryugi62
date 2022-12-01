@@ -1,26 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="helthQuenBackgorund">
+    <HelthQuenHeader />
+    <HelthQuenBody />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelthQuenBody from "./components/helthQuenBody.vue";
+import HelthQuenHeader from "./components/helthQuenHeader.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HelthQuenHeader,
+    HelthQuenBody,
+  },
+};
 </script>
 
 <style>
+* {
+  border: 1px solid red;
+}
+
+html,
+body,
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin: 0;
+  height: 100%;
+}
+
+.helthQuenBackgorund {
+  width: 100%;
+  height: 100%;
 }
 </style>
