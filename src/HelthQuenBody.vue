@@ -1,6 +1,6 @@
 <template>
   <div class="bodyBackground">
-    <div class="temp"></div>
+    <router-view />
   </div>
 </template>
 

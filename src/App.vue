@@ -1,13 +1,13 @@
 <template>
-  <div class="helthQuenBackgorund">
-    <HelthQuenHeader />
-    <HelthQuenBody />
+  <div class="helthQuenBackground">
+    <helth-quen-header />
+    <helth-quen-body />
   </div>
 </template>
 
 <script>
-import HelthQuenBody from "./components/helthQuenBody.vue";
-import HelthQuenHeader from "./components/helthQuenHeader.vue";
+import HelthQuenHeader from "@/HelthQuenHeader.vue";
+import HelthQuenBody from "@/HelthQuenBody.vue";
 
 export default {
   name: "App",
@@ -26,12 +26,14 @@ export default {
 html,
 body,
 #app {
+  width: 100%;
   margin: 0;
   height: 100%;
 }
 
-.helthQuenBackgorund {
+.helthQuenBackground {
   width: 100%;
   height: 100%;
+  background-color: #e6f0ef;
 }
 </style>
