@@ -32,8 +32,6 @@
 - Instagram: [![Instagram](https://img.shields.io/badge/Instagram-Follow-ff69b4)](https://www.instagram.com/k_g1020/)
 
 ## More Information
-- [Blog Link]: [![Blog](https://img.shields.io/badge/Blog-Read%20More-brightgreen)](https://your-blog-link.com)
-- [Portfolio Link]: [![Portfolio](https://img.shields.io/badge/Portfolio-View%20Projects-brightgreen)](https://your-portfolio-link.com)
 
 ## Want to work together?
 - I welcome new challenges. Feel free to reach out anytime through my portfolio and contact information!
