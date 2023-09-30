@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://your-profile-image-url.com" width="100" height="100" alt="Profile Image">
+  <img src="[https://your-profile-image-url.com](https://avatars.githubusercontent.com/u/66805752?v=4)" width="100" height="100" alt="Profile Image">
 </p>
 
 # Hello, I'm Ryugi62, a Developer! 👋
